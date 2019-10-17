@@ -3,3 +3,10 @@ html {box-sizing: border-box;}
 *, *::before, *::after {
     box-sizing:inherit;
 }
+
+#logo {
+    height: 20;
+    width: 60;
+    border: 1px solid black;
+}
+
