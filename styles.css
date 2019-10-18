@@ -1,4 +1,8 @@
-html {box-sizing: border-box;}
+html {
+    box-sizing: border-box;
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+}
 
 *, *::before, *::after {
     box-sizing:inherit;
@@ -111,6 +115,36 @@ header {
 #reservations {
     display: flex;
     flex-direction: column;
+}
+
+#fullname {
+    width: 300px;
+    height: 40px;;
+}
+
+#guests {
+    width: 100px;
+    height: 40px;
+}
+
+#date {
+    width: 200px;
+    height: 40px;;
+}
+
+#notes {
+    width: 325px;
+    height: 80px;
+}
+
+#seat {
+    width: 70px;
+    height: 20px;
+}
+
+#reservations button {
+    width: 100px;
+    height: 40px;
 }
 
 /*---------- End of Left ----------*/
