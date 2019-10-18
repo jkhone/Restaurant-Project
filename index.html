@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Restaurant</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -14,88 +13,99 @@
     <main class="container">
 
         <header>
-            <img src="logo.png" alt="Java's Hut" id="logo">
+            <img src="./assets/logo.png" alt="Java's Hut" id="logo">
             <div class="social">
                 <i class="fa fa-twitter"></i>
                 <i class="fa fa-instagram"></i>
                 <i class="fa fa-facebook-f"></i>
             </div>
-
         </header>
 
         <div id="banner">
-
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/k1sF9veTzuU?controls=0&amp;start=88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-      <div class="about">
-          <div class="news"></div>
-          <div class="special"></div>
-          <div class="location"></div>
-      </div>
+        <div class="about">
+            <div class="news">
+                <h2>Latest News</h2>  
+                <p id="headline">This is the headline</p>
+                <p id=date>June 7</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam error neque ullam voluptas similique quam quasi ipsam fugit pariatur, expedita aspernatur ex nulla corporis itaque a odit consectetur doloremque assumenda beatae earum odio eveniet. Repellendus ut tempora inventore veniam. Saepe et necessitatibus minus molestiae iusto quam accusantium similique ut iure?...read more ></p>
+            </div> 
+            <div class="special">
+                <h2>Today's Special</h2> 
+                <img src="todaysSpecial.jpg" alt="Darth Chocolate" id="todaysSpecial">
+                <p id="headline">Dining on the darker side..........27</p>
+                <p>Darth chocalte is one of our specialties.  Not only is it tasty, it will make you reach your full potential.  Don't belive us? Your lack of faith is disturbing.</p>
+            </div>
+            <div class="location">
+                <h2>Our Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.336428363762!2d-115.1547438846643!3d36.15836708008585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c39ab25d5fd5%3A0x8a76a578cf778310!2s1112%20S%20Casino%20Center%20Blvd%2C%20Las%20Vegas%2C%20NV%2089104!5e0!3m2!1sen!2sus!4v1571352493458!5m2!1sen!2sus" width="300" height="225" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <p>1112 S. Casino Center Blvd, Las Vegas, NV  89014</p>
+                <p>555-555-1234&bull;555-555-1234&bull;<span href="#">Map</span>&bull;<span href="#">Directions</span></p>
+            </div>
+        </div>
 
-      <div class="bottom">
-          <div class="left">
+        <div class="bottom">
+            <div class="left">
+                <div class="tabs">
+                    <p>Our Story</p>
+                    <p>Menu</p>
+                    <p>Reservations</p>
+                </div>
+                <div id="story">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquid ducimus deserunt consequatur ipsa accusamus placeat praesentium id, ipsum odio eius laboriosam quisquam, incidunt suscipit tempora est perferendis distinctio a! Minus ab dolore aliquid possimus consequatur veritatis, tempora alias architecto ullam labore pariatur aperiam dolorum ad neque temporibus hic iusto.</p>
 
-              <div class="tabs">
-                  <p>Our Story</p>
-                  <p>Menu</p>
-                  <p>Reservations</p>
-              </div>
+                    <img src="./assets/storypic.jpg" alt="">
 
-              <div id="story">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquid ducimus deserunt consequatur ipsa accusamus placeat praesentium id, ipsum odio eius laboriosam quisquam, incidunt suscipit tempora est perferendis distinctio a! Minus ab dolore aliquid possimus consequatur veritatis, tempora alias architecto ullam labore pariatur aperiam dolorum ad neque temporibus hic iusto.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro quidem aperiam, hic ab velit iusto, accusamus error dolores optio vitae magnam obcaecati nam modi enim nisi provident, autem voluptatem eum possimus animi esse! Ipsa placeat nulla cumque optio obcaecati facere, eveniet vel aut aliquam impedit sunt ex officia numquam soluta.</p>
+                </div>
+                <div id="menu">
 
-                  <img src="./assets/storypic.jpg" alt="">
+                  <h3>Selection of Menu Items</h3>
 
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro quidem aperiam, hic ab velit iusto, accusamus error dolores optio vitae magnam obcaecati nam modi enim nisi provident, autem voluptatem eum possimus animi esse! Ipsa placeat nulla cumque optio obcaecati facere, eveniet vel aut aliquam impedit sunt ex officia numquam soluta.</p>
-              </div>
+                  <div class="itemtype">
+                      <div class="menuitem">
+                          <h4>Food Name</h4>
+                          <p>Price</p>
+                          <p>Decription</p>
+                          <div class="extra">
+                              <span>Spicy</span>
+                              <span>Gluten-Free</span>
+                              <span>Vegetarian</span>
+                          </div>
+                      </div>
+                  </div>
 
-              <div id="menu">
+                  <div class="itemtype">
+                      <div class="menuitem">
+                          <h4>Food Name</h4>
+                          <p>Price</p>
+                          <p>Decription</p>
+                          <div class="extra">
+                              <span>Spicy</span>
+                              <span>Gluten-Free</span>
+                              <span>Vegetarian</span>
+                          </div>
+                      </div>
+                  </div>
 
-                <h3>Selection of Menu Items</h3>
+                  <div class="itemtype">
+                      <div class="menuitem">
+                          <h4>Food Name</h4>
+                          <p>Price</p>
+                          <p>Decription</p>
+                          <div class="extra">
+                              <span>Spicy</span>
+                              <span>Gluten-Free</span>
+                              <span>Vegetarian</span>
+                          </div>
+                      </div>
+                  </div>
 
-                <div class="itemtype">
-                    <div class="menuitem">
-                        <h4>Food Name</h4>
-                        <p>Price</p>
-                        <p>Decription</p>
-                        <div class="extra">
-                            <span>Spicy</span>
-                            <span>Gluten-Free</span>
-                            <span>Vegetarian</span>
-                        </div>
-                    </div>
                 </div>
 
-                <div class="itemtype">
-                    <div class="menuitem">
-                        <h4>Food Name</h4>
-                        <p>Price</p>
-                        <p>Decription</p>
-                        <div class="extra">
-                            <span>Spicy</span>
-                            <span>Gluten-Free</span>
-                            <span>Vegetarian</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="itemtype">
-                    <div class="menuitem">
-                        <h4>Food Name</h4>
-                        <p>Price</p>
-                        <p>Decription</p>
-                        <div class="extra">
-                            <span>Spicy</span>
-                            <span>Gluten-Free</span>
-                            <span>Vegetarian</span>
-                        </div>
-                    </div>
-                </div>
-
-              </div>
-
-              <div id="reservations">
+                <div id="reservations">
                   <label for="fullname">Full Name</label>
                   <input type="text" name="fullname" id="fullname">
 
@@ -129,10 +139,11 @@
               <img src="./assets/fish.jpg" id="image4">
               <img src="./assets/cheesecake.jpg" id="image5">
           </div>
+        </div>
       </div>
+
     </main>
     
-  
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
