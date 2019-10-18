@@ -16,7 +16,6 @@ html {box-sizing: border-box;}
 }
 
 .news, .special, .location {
-    width: 33%;
     color: rgb(87,87,87);
     background-color: rgb(232,232,232);
     padding: 20px;
@@ -25,6 +24,7 @@ html {box-sizing: border-box;}
 /* ---------- Start of News Section ---------- */
 
 .news {
+    width: 33%;
     border: 1px solid green;
 }
 
@@ -43,6 +43,7 @@ html {box-sizing: border-box;}
 /* ---------- Start of Special Section ---------- */
 
 .special {
+    width: 34%;
     border: 1px solid green;
 }
 
@@ -61,6 +62,7 @@ html {box-sizing: border-box;}
 /* ---------- Start of Location Section ---------- */
 
 .location {
+    width: 33%;
     border: 1px solid green;
 }
 
