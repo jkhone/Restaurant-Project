@@ -14,7 +14,7 @@
 
         <header>
             <a id="jabasHuttLink" href="index.html"><img src="./assets/logo.png" alt="Java's Hut" id="logo" /></a>
-            <nav>
+            <nav class="nav">
                 <a href="#story">Our Story</a>
                 <a href="#menu">Menu</a>
                 <a href="#reservations">Book a Reservation</a>
@@ -73,97 +73,65 @@
             </div>
         </div>
 
+        <div class="tabs">
+            <a href="#story"><p>Our Story</p></a>
+            <a href="#menu"><p><i class="fa fa-book"></i> Menu</p></a>
+            <a href="#reservations"><p>Reservations</p></a>
+        </div>
+
         <div class="bottom">
-            <div class="left">
-                <div class="tabs">
-                    <p>Our Story</p>
-                    <p><i class="fa fa-book"></i> Menu</p>
-                    <p>Reservations</p>
-                </div>
-                <div id="story">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquid ducimus deserunt consequatur ipsa accusamus placeat praesentium id, ipsum odio eius laboriosam quisquam, incidunt suscipit tempora est perferendis distinctio a! Minus ab dolore aliquid possimus consequatur veritatis, tempora alias architecto ullam labore pariatur aperiam dolorum ad neque temporibus hic iusto.
-                    </p>
+                
+            <div class="content" id="story">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquid ducimus deserunt consequatur ipsa accusamus placeat praesentium id, ipsum odio eius laboriosam quisquam, incidunt suscipit tempora est perferendis distinctio a! Minus ab dolore aliquid possimus consequatur veritatis, tempora alias architecto ullam labore pariatur aperiam dolorum ad neque temporibus hic iusto.
+                </p>
 
-                    <img src="./assets/storypic.jpg" alt="">
+                <img src="./assets/storypic.jpg" alt="">
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro quidem aperiam, hic ab velit iusto, accusamus error dolores optio vitae magnam obcaecati nam modi enim nisi provident, autem voluptatem eum possimus animi esse! Ipsa placeat nulla cumque optio obcaecati facere, eveniet vel aut aliquam impedit sunt ex officia numquam soluta.  
-                    </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro quidem aperiam, hic ab velit iusto, accusamus error dolores optio vitae magnam obcaecati nam modi enim nisi provident, autem voluptatem eum possimus animi esse! Ipsa placeat nulla cumque optio obcaecati facere, eveniet vel aut aliquam impedit sunt ex officia numquam soluta.  
+                </p>
 
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/k1sF9veTzuU?controls=0&amp;start=88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div id="menu">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/k1sF9veTzuU?controls=0&amp;start=88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 
-                  <h3>Selection of Menu Items</h3>
+            <div class="content" id="menu">
 
-                  <div class="itemtype">
-                      <div class="menuitem">
-                          <h4>Food Name</h4>
-                          <p>Price</p>
-                          <p>Decription</p>
-                          <div class="extra">
-                              <span>Spicy</span>
-                              <span>Gluten-Free</span>
-                              <span>Vegetarian</span>
-                          </div>
-                      </div>
-                  </div>
+                <h3>Selection of Menu Items</h3>
 
-                  <div class="itemtype">
-                      <div class="menuitem">
-                          <h4>Food Name</h4>
-                          <p>Price</p>
-                          <p>Decription</p>
-                          <div class="extra">
-                              <span>Spicy</span>
-                              <span>Gluten-Free</span>
-                              <span>Vegetarian</span>
-                          </div>
-                      </div>
-                  </div>
+                <div class="itemtype" id="apps"></div>
 
-                  <div class="itemtype">
-                      <div class="menuitem">
-                          <h4>Food Name</h4>
-                          <p>Price</p>
-                          <p>Decription</p>
-                          <div class="extra">
-                              <span>Spicy</span>
-                              <span>Gluten-Free</span>
-                              <span>Vegetarian</span>
-                          </div>
-                      </div>
-                  </div>
+                <div class="itemtype" id="entrees"></div>
 
-                </div>
+                <div class="itemtype" id="desserts"></div>
 
-                <div id="reservations">
-                  <label for="fullname">Full Name</label>
-                  <input type="text" name="fullname" id="fullname">
+            </div>
 
-                  <label for="guests">Number of Guests</label>
-                  <input type="number" name="guests" id="guests">
-                  
-                  <label for="date">Date</label>
-                  <input type="date" name="date" id="date">
+            <div class="content" id="reservations">
+                <label for="fullname">Full Name</label>
+                <input type="text" name="fullname" id="fullname">
 
-                  <label for="notes">Special Notes</label>
-                  <textarea name="notes" id="notes" cols="30" rows="10"></textarea>
+                <label for="guests">Number of Guests</label>
+                <input type="number" name="guests" id="guests">
+                
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
 
-                  <label for="seat">Seating Preference</label>
-                  <select name="seat" id="seat">
-                      <option value="">foo</option>
-                      <option value="">foo</option>
-                      <option value="">foo</option>
-                      <option value="">foo</option>
-                      <option value="">foo</option>
-                      <option value="">foo</option>
-                      <option value="">foo</option>
-                  </select>
+                <label for="notes">Special Notes</label>
+                <textarea name="notes" id="notes" cols="30" rows="10"></textarea>
 
-                  <button>Reserve Table</button>
-              </div>
-          </div>
+                <label for="seat">Seating Preference</label>
+                <select name="seat" id="seat">
+                    <option value="">foo</option>
+                    <option value="">foo</option>
+                    <option value="">foo</option>
+                    <option value="">foo</option>
+                    <option value="">foo</option>
+                    <option value="">foo</option>
+                    <option value="">foo</option>
+                </select>
 
+                <button>Reserve Table</button>
+
+            </div>
         </div>
       </div>
 
