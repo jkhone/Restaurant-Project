@@ -1,191 +1,197 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, *::before, *::after {
-    box-sizing:inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 /*----------  ----------*/
 
 body {
-    background-image: url(./assets/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
-    width: 1200px;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
+  width: 1200px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* ---------- Start of Header Section ---------- */
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
 }
 
 #logo {
-    height: 20;
-    width: 60;
+  height: 20;
+  width: 60;
 }
 
 header a {
-    background-color: black;
-    color: white;
-    margin: 0 20px;
-    padding: 10px 20px;
-    border-radius: 50px;
+  background-color: black;
+  color: white;
+  margin: 0 20px;
+  padding: 10px 20px;
+  border-radius: 50px;
 }
 
 #jabasHuttLink {
-    background-color: white;
+  background-color: white;
 }
 
 .social i {
-    height: 30px;
-    width: 30px;
-    font-size: 20px;
-    margin-left: 5px;
-    line-height: 1.5;
-    color: #cccc;
-    text-align: center;
-    border-bottom: 4px solid#C0c0c0;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  margin-left: 5px;
+  line-height: 1.5;
+  color: #cccc;
+  text-align: center;
+  border-bottom: 4px solid#C0c0c0;
 }
 
-.social > i:nth-child(1) {
-    background-color:rgb(58,79,138);
+.social>i:nth-child(1) {
+  background-color: rgb(58, 79, 138);
 }
 
-.social > i:nth-child(2) {
-    background-color: rgb(196,130,51);
+.social>i:nth-child(2) {
+  background-color: rgb(196, 130, 51);
 }
 
-.social > i:nth-child(3) {
-    background-color: rgb(94,132,190);
+.social>i:nth-child(3) {
+  background-color: rgb(94, 132, 190);
 }
 
 #openTable {
-    border: 3px solid white;
-    background-color: white;
+  border: 3px solid white;
+  background-color: white;
 }
 
 #openTableLink {
-    background-color: white;
+  background-color: white;
 }
 
 /* ---------- End of Header Section ---------- */
 
 /* ---------- Start of Banner Section ---------- */
 .banner {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 .foodpics {
-    align-items: center;
-    margin: 20px 0;
+  align-items: center;
+  margin: 20px 0;
 }
 
-.topfood, .botfood {
-    display: flex;
+.topfood,
+.botfood {
+  display: flex;
 }
 
 .foodpics img {
-    width: 33.33%;
-    height: 250px;
-    object-fit: cover;
+  width: 33.33%;
+  height: 250px;
+  object-fit: cover;
 }
+
 /* ---------- End of Banner Section ---------- */
 
 
 /* ---------- Start of About Section ---------- */
 .about {
-    display: flex;
-    margin: 10px;
+  display: flex;
+  margin: 10px;
 }
 
-.news, .special, .location {
-    color: black;
-    background-color: white;
-    padding: 5px 20px 5px 20px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 5px rgb(29, 99, 179);
-    height: 460px;
+.news,
+.special,
+.location {
+  color: black;
+  background-color: white;
+  padding: 5px 20px 5px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px rgb(29, 99, 179);
+  height: 460px;
 }
 
 /* ---------- Start of News Section ---------- */
 
 .news {
-    width: 33%;
-    border: 3px solid black;
-    background-image: url ("./assets/battelfront1.jpeg");
-    overflow: auto;
+  width: 33%;
+  border: 3px solid black;
+  background-image: url ("./assets/battelfront1.jpeg");
+  overflow: auto;
 }
 
 .news h2 {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 #headline {
-    font-size: 18px;
-    font-weight: bold;
-    font-style: italic;
-    color:rgb(252, 175, 40);
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(252, 175, 40);
 }
 
 /* ---------- End of News Section ---------- */
 /* ---------- Start of Special Section ---------- */
 
 .special {
-    width: 34%;
-    border: 3px solid black;
+  width: 34%;
+  border: 3px solid black;
 }
 
 .special h2 {
-    font-size: 26px;
-    border-bottom: #000000;
+  font-size: 26px;
+  border-bottom: #000000;
 }
 
 #todaysSpecial {
-    width: 300px;
-    height: 225px;
-    border-radius: 25px;
-    border: 1px solid black;
-    box-shadow: 5px 5px dodgerblue;
+  width: 300px;
+  height: 225px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 5px 5px dodgerblue;
 }
 
 /* ---------- End of Special Section ---------- */
 /* ---------- Start of Location Section ---------- */
 
 .location {
-    width: 33%;
-    border: 3px solid black;
+  width: 33%;
+  border: 3px solid black;
 }
 
 .location h2 {
-    background-image: url ("./assets/tatooine.jpg");
-    font-size: 26px;
+  background-image: url ("./assets/tatooine.jpg");
+  font-size: 26px;
 }
 
 .location iframe {
-    align-content: center;
-    border-radius: 25px;
-    border: 1px solid black;
-    box-shadow: 5px 5px dodgerblue;
+  align-content: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 5px 5px dodgerblue;
 }
 
 .location p {
-    text-align: center;
+  text-align: center;
 }
 
 /* ---------- End of Location Section ---------- */
@@ -194,100 +200,127 @@ header a {
 
 /*---------- Start of Bottom ----------*/
 .bottom {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 }
 
 .content {
-    display: none;
+  display: none;
 }
 
 /*---------- Start of Tabs ----------*/
 .tabs {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 70px;
-    background: white;
-    align-items: center;
-    border-radius: 5px;
-    margin: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 70px;
+  background: white;
+  align-items: center;
+  border-radius: 5px;
+  margin: 20px 0;
 }
 
 .tabs p {
-    font-size: 30px;
+  font-size: 30px;
 }
+
 /* ---------- End of Tabs ---------- */
 
 /*---------- Start of Story ----------*/
 #story {
-    background: white;
-    padding: 15px;
-    border-radius: 5px;
-    font-size: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
 #story p {
-    padding: 10px;
+  padding: 10px;
 }
 
 #story img {
-    width: 100%;
-    height: 235px;
-    object-fit: cover;
-    object-position: 0px -435px;
+  width: 100%;
+  height: 235px;
+  object-fit: cover;
+  object-position: 0px -435px;
 }
+
 /* ---------- End of Story ---------- */
 
 /*---------- Start of Menu ----------*/
 #menu {
-    background: white;
-    padding: 15px;
+  background: white;
+  padding: 15px;
 }
 
 .itemtype {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 .type {
-    font-size: 30px;
+  font-size: 30px;
 }
+
 /* ---------- End of Menu ---------- */
 
 /*---------- Start of Reservations ----------*/
 #reservations {
-    background: white;
-    padding: 15px;
+  background: white;
+  padding: 15px;
+
+}
+
+#reservations>div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+#formvid {
+  display: inline;
+}
+
+#form input,
+textarea,
+select {
+  margin: 15px;
 }
 
 #fullname {
-    width: 300px;
-    height: 40px;;
+  width: 300px;
+  height: 40px;
+  ;
 }
 
 #guests {
-    width: 100px;
-    height: 40px;
+  width: 100px;
+  height: 40px;
 }
 
 #date {
-    width: 200px;
-    height: 40px;;
+  width: 200px;
+  height: 40px;
+  ;
 }
 
 #notes {
-    width: 325px;
-    height: 80px;
+  width: 325px;
+  height: 80px;
 }
 
 #seat {
-    width: 70px;
-    height: 20px;
+  width: 70px;
+  height: 20px;
 }
 
 #reservations button {
-    width: 100px;
-    height: 40px;
+  width: 100px;
+  height: 40px;
 }
+
 /* ---------- End of Reservations ---------- */
 /*---------- End of Bottom ----------*/
